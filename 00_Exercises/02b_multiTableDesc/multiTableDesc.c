@@ -42,7 +42,7 @@ int main(int argc, char* argv[])
 
 void printUsageMessage(void)
 {
-	printf("Usage: multiTable wholeNumber\n\twholeNumber: integer on the interval[lowerLimit,upperLimit]\n");
+	printf("Usage: multiTable wholeNumber\n\twholeNumber: integer on the interval[%d,%d]\n",lowerLimit,upperLimit);
 }
 
 void printMultiTable(int tableLimit)
