@@ -1,18 +1,22 @@
+
 #include <stdio.h>
 #include <stdlib.h>
 
-/* function prototypes */
+// compile flags
+#define DEBUG
+
+// custom indludes
+#include "hello.h"
 
 
-/* main */
 int main(int argc, char *argv[])
 {
-	
+	helloWorld();
 	
 	return EXIT_SUCCESS;
 }
 
 
-/* function implementation */
+
 
 
