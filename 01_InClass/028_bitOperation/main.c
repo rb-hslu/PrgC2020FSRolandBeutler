@@ -41,7 +41,7 @@ int main(int argc, char *argv[])
 		}
 	printf("\n");
 
-	// test 4, check 
+	// test 4, check every bit twice, first -> false, flip -> true, one-by-one
 
 	for(int i = 0; i < 8 ; i++ )
 		{
